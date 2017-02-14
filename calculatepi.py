@@ -18,4 +18,4 @@ dir(math)
 n = int(input("I will estimate the value of Pi, How many terms should I use?"))
 Decimals = int(input( "How many decimal places should I use in the result?"))
 pi = e = 1.0/sum([((-1.0)**k)/math.factorial(k) for k in range(0,n)])
-print ("the Approximate value of pi is 
+print("The approximate value of pi is {0}".format(round(e, decimals)))
